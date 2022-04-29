@@ -1,0 +1,19 @@
+{
+  "name": "shareqr",
+  "version": "1.0.0",
+  "description": "command line tool for sharing files via link and local web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matej Koncal",
+  "bin": {
+    "shareqr": "./index.js"
+  },
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "internal-ip": "^7.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
