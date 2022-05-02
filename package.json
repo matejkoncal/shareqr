@@ -1,6 +1,6 @@
 {
   "name": "shareqr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "command line tool for sharing files via link and local web server",
   "main": "index.js",
   "scripts": {
