@@ -12,5 +12,6 @@ const name = path.basename(fullPath);
 
 qrcode.generate(`http://${ip}:3000/${name}`, { small: true });
 createServer(async (_, res) => {
+  res.setHeader("Content-Disposition", "attachment");
   fs.createReadStream(fullPath).pipe(res, { end: true });
 }).listen(3000);
