@@ -11,6 +11,10 @@
     "shareqr": "./index.js"
   },
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matejkoncal/shareqr"
+  },
   "license": "ISC",
   "dependencies": {
     "internal-ip": "^7.0.0",
